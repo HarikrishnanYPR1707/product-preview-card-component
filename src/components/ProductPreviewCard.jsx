@@ -14,7 +14,7 @@ const ProductPreviewCard = () => {
       </div>
       {/* lower section  */}
       <div className="p-8">
-        <p className="text-fmTextColor border border-black font-Montserrat uppercase">
+        <p className="text-fmTextColor font-Montserrat uppercase">
           {"Perfume".split("").map((item, i) => (
             <span key={i} className="mr-1">
               {item}
