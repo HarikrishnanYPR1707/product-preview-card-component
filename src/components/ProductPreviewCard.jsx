@@ -9,7 +9,7 @@ const ProductPreviewCard = () => {
         <img
           src="/image-product-desktop.jpg"
           alt=""
-          className="hidden lg:block lg:h-full"
+          className="hidden brightness-[0.95] lg:block lg:h-full"
         />
       </div>
       {/* lower section  */}
