@@ -3,7 +3,7 @@ import ProductPreviewCard from "./components/ProductPreviewCard";
 
 const App = () => {
   return (
-    <section className="bg-fmCream h-screen p-5">
+    <section className="grid h-screen place-content-center bg-fmCream p-4">
       <ProductPreviewCard />
     </section>
   );
