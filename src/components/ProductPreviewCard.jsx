@@ -38,7 +38,7 @@ const ProductPreviewCard = () => {
             $169.99
           </span>
         </p>
-        <button className="">
+        <button className=" flex w-full items-center justify-center gap-2 rounded-lg border border-purple-600 bg-fmLightGreen py-3 font-Montserrat font-bold text-white active:bg-fmDarkGreen">
           <img src="/icon-cart.svg" alt="" />
           <p className="">Add to Cart</p>
         </button>
