@@ -30,7 +30,7 @@ const ProductPreviewCard = () => {
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </div>
-        <p className="mt-4 flex items-center justify-start gap-5 lg:gap-4">
+        <p className="mt-4 flex items-center justify-start gap-5 lg:mt-2 lg:gap-4">
           <span className="font-Fraunces text-3xl font-bold text-fmLightGreen lg:text-[27px]">
             $149.99
           </span>
@@ -38,7 +38,7 @@ const ProductPreviewCard = () => {
             $169.99
           </span>
         </p>
-        <button className="mt-5 flex w-full items-center justify-center gap-2 rounded-lg bg-fmLightGreen py-3 font-Montserrat font-bold text-white active:bg-fmDarkGreen lg:text-[12px]">
+        <button className="mt-5 flex w-full items-center justify-center gap-2 rounded-lg bg-fmLightGreen py-3 font-Montserrat font-bold text-white active:bg-fmDarkGreen lg:mt-3 lg:text-[12px]">
           <img src="/icon-cart.svg" alt="" className="lg:w-[12px]" />
           <p className="">Add to Cart</p>
         </button>
