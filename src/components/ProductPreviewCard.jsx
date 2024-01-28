@@ -39,11 +39,7 @@ const ProductPreviewCard = () => {
           </span>
         </p>
         <button className="mt-5 flex w-full items-center justify-center gap-2 rounded-lg bg-fmLightGreen py-3 font-Montserrat font-bold text-white active:bg-fmDarkGreen lg:text-[12px]">
-          <img
-            src="/icon-cart.svg"
-            alt=""
-            className="border border-black lg:w-[15px]"
-          />
+          <img src="/icon-cart.svg" alt="" className="lg:w-[12px]" />
           <p className="">Add to Cart</p>
         </button>
       </div>
