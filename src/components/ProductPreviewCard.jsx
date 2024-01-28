@@ -21,11 +21,11 @@ const ProductPreviewCard = () => {
             </span>
           ))}
         </p>
-        <div className="mt-2 border border-purple-500">
-          <h1 className="font-Fraunces text-3xl text-fmDarkBlue">
+        <div className="mt-2">
+          <h1 className="font-Fraunces text-3xl font-bold text-fmDarkBlue">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="font-Montserrat text-sm text-fmTextColor">
+          <p className="mt-3 font-Montserrat text-sm font-medium text-fmTextColor">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
