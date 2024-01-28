@@ -1,7 +1,7 @@
 import React from "react";
 
 const App = () => {
-  return <section className="">kannan</section>;
+  return <section className="bg-fmCream h-screen p-5"></section>;
 };
 
 export default App;
