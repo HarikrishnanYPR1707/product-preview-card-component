@@ -1,7 +1,7 @@
 import React from "react";
 
 const App = () => {
-  return <section className=""></section>;
+  return <section className="text-5xl font-bold underline">kannan</section>;
 };
 
 export default App;
