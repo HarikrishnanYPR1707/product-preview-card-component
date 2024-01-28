@@ -13,17 +13,19 @@ const ProductPreviewCard = () => {
         />
       </div>
       {/* lower section  */}
-      <div className="p-8">
-        <p className="text-fmTextColor font-Montserrat uppercase">
+      <div className="border border-red-500 p-6">
+        <p className="font-Montserrat font-bold uppercase text-fmTextColor">
           {"Perfume".split("").map((item, i) => (
             <span key={i} className="mr-1">
               {item}
             </span>
           ))}
         </p>
-        <div className="">
-          <h1 className="">Gabrielle Essence Eau De Parfum</h1>
-          <p className="">
+        <div className="mt-2 border border-purple-500">
+          <h1 className="font-Fraunces text-3xl">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p className="text-sm">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
