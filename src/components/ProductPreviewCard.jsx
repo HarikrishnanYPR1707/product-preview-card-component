@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductPreviewCard = () => {
   return (
-    <div className="w-full max-w-[430px] overflow-hidden rounded-xl border border-black bg-white text-sm lg:h-[515px] lg:w-[685px]">
+    <div className="flex w-full max-w-[430px] flex-col items-center justify-center overflow-hidden rounded-xl border border-black bg-white text-sm lg:h-[515px] lg:w-[685px] lg:flex-row">
       {/* image section  */}
       <div className="w-full">
         <img src="/image-product-mobile.jpg" alt="" className="lg:hidden" />
@@ -22,10 +22,10 @@ const ProductPreviewCard = () => {
           ))}
         </p>
         <div className="mt-2 border border-purple-500">
-          <h1 className="font-Fraunces text-3xl">
+          <h1 className="font-Fraunces text-3xl text-fmDarkBlue">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="text-sm">
+          <p className="font-Montserrat text-sm">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
