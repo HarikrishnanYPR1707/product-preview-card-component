@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductPreviewCard = () => {
   return (
-    <div className="flex w-full max-w-[430px] flex-col items-center justify-center overflow-hidden rounded-xl border border-black bg-white text-sm lg:h-[515px] lg:w-[685px] lg:flex-row">
+    <div className="flex w-full max-w-[430px] flex-col items-center justify-center overflow-hidden rounded-xl bg-white text-sm lg:h-[515px] lg:w-[685px] lg:flex-row">
       {/* image section  */}
       <div className="w-full">
         <img src="/image-product-mobile.jpg" alt="" className="lg:hidden" />
