@@ -4,7 +4,7 @@ const ProductPreviewCard = () => {
   return (
     <div className="flex w-[343px] flex-col items-center justify-center overflow-hidden rounded-xl bg-white text-sm lg:h-[374px] lg:w-[500px] lg:flex-row">
       {/* image section  */}
-      <div className="border border-blue-600 lg:h-full lg:w-1/2">
+      <div className="lg:h-full lg:w-1/2">
         <img src="/image-product-mobile.jpg" alt="" className="lg:hidden" />
         <img
           src="/image-product-desktop.jpg"
