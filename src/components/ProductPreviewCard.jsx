@@ -30,7 +30,7 @@ const ProductPreviewCard = () => {
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </div>
-        <p className="mt-4 flex items-center justify-start gap-5 border border-purple-600">
+        <p className="mt-4 flex items-center justify-start gap-5">
           <span className="font-Fraunces text-3xl font-bold text-fmLightGreen">
             $149.99
           </span>
