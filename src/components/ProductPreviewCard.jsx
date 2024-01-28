@@ -2,9 +2,9 @@ import React from "react";
 
 const ProductPreviewCard = () => {
   return (
-    <div className="flex w-full max-w-[390px] flex-col items-center justify-center overflow-hidden rounded-xl bg-white text-sm lg:h-[515px] lg:w-[685px] lg:flex-row">
+    <div className="flex w-[343px] flex-col items-center justify-center overflow-hidden rounded-xl bg-white text-sm lg:h-[374px] lg:w-[500px] lg:flex-row">
       {/* image section  */}
-      <div className="w-full">
+      <div className="border border-blue-600 lg:h-full lg:w-1/2">
         <img src="/image-product-mobile.jpg" alt="" className="lg:hidden" />
         <img
           src="/image-product-desktop.jpg"
@@ -13,8 +13,8 @@ const ProductPreviewCard = () => {
         />
       </div>
       {/* lower section  */}
-      <div className="p-6">
-        <p className="font-Montserrat uppercase text-fmTextColor">
+      <div className="border border-red-600 p-6 lg:h-full lg:w-1/2">
+        <p className="font-Montserrat uppercase text-fmTextColor lg:text-[10px]">
           {"Perfume".split("").map((item, i) => (
             <span key={i} className="mr-1">
               {item}
@@ -22,10 +22,10 @@ const ProductPreviewCard = () => {
           ))}
         </p>
         <div className="mt-2">
-          <h1 className="text- font-Fraunces text-[32px] font-bold leading-8 text-fmDarkBlue">
+          <h1 className="font-Fraunces text-[32px] font-bold leading-8 text-fmDarkBlue lg:text-[27px] lg:leading-[27px]">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="mt-3 font-Montserrat text-sm font-medium leading-6 text-fmTextColor">
+          <p className="mt-3 font-Montserrat text-[12px] text-sm font-medium leading-6 text-fmTextColor lg:mt-5 lg:leading-5">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
