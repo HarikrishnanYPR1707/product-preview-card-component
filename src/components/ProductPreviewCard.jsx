@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductPreviewCard = () => {
   return (
-    <div className="flex w-full max-w-[430px] flex-col items-center justify-center overflow-hidden rounded-xl bg-white text-sm lg:h-[515px] lg:w-[685px] lg:flex-row">
+    <div className="flex w-full max-w-[390px] flex-col items-center justify-center overflow-hidden rounded-xl bg-white text-sm lg:h-[515px] lg:w-[685px] lg:flex-row">
       {/* image section  */}
       <div className="w-full">
         <img src="/image-product-mobile.jpg" alt="" className="lg:hidden" />
@@ -13,8 +13,8 @@ const ProductPreviewCard = () => {
         />
       </div>
       {/* lower section  */}
-      <div className="p-5">
-        <p className="font-Montserrat font-bold uppercase text-fmTextColor">
+      <div className="p-6">
+        <p className="font-Montserrat uppercase text-fmTextColor">
           {"Perfume".split("").map((item, i) => (
             <span key={i} className="mr-1">
               {item}
@@ -22,10 +22,10 @@ const ProductPreviewCard = () => {
           ))}
         </p>
         <div className="mt-2">
-          <h1 className="font-Fraunces text-3xl font-bold text-fmDarkBlue">
+          <h1 className="text- font-Fraunces text-[32px] font-bold leading-8 text-fmDarkBlue">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="mt-3 font-Montserrat text-sm font-medium text-fmTextColor">
+          <p className="mt-3 font-Montserrat text-sm font-medium leading-6 text-fmTextColor">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
